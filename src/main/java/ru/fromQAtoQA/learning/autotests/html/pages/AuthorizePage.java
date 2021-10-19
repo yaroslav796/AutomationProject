@@ -9,7 +9,7 @@ import ru.sbtqa.tag.pagefactory.annotations.PageEntry;
 import ru.sbtqa.tag.pagefactory.environment.Environment;
 import ru.sbtqa.tag.qautils.properties.Props;
 
-@PageEntry(title = "Страница авторизации ДБО")
+@PageEntry(title = "Страница авторизации")
 public class AuthorizePage extends WebPage {
 
     @ElementTitle(value = "Логин")
